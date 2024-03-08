@@ -1,0 +1,121 @@
+.navbar {
+  background-color: #fa1900;
+}
+
+.navbar .nav .nav-link.active {
+  background-color: #ffee00;
+  color: #000000;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand h1 {
+  color: #000000;
+}
+
+.navbar-brand h1,
+#headere {
+  color: #000000;
+  font-family: Orbitron;
+  font-size: 28px;
+}
+
+#carousel img {
+  height: 767px;
+  width: 1920px;
+}
+
+#loja-universe {
+  text-align: justify;
+}
+
+.nav .nav-link:hover {
+  color: blueviolet;
+}
+
+.navbar-toggler {
+  background-color: #b31604 !important;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.section-title {
+  font-family: Orbitron;
+}
+
+.section-title span {
+  color: #fa1900;
+}
+
+#sobre-o-restaurante,
+#cardapio {
+  background-color: #fff280f3;
+}
+
+.text-colored {
+  color: #fa1900 !important;
+}
+
+.nav-cardapio .nav-link.active {
+  background-color: #fa7f72 !important;
+  color: #fff !important;
+}
+
+.images-cardapio img {
+  width: 100%; /* Define a largura das imagens para ocupar 100% da largura do container */
+  height: 300px;
+  object-fit: cover;
+}
+
+span#header {
+  color: rgb(2, 255, 242);
+  font-weight: bold;
+  box-shadow: #000000;
+}
+
+.social-links li {
+  list-style: none;
+  display: inline !important;
+}
+
+.social-links a {
+  text-decoration: none;
+}
+
+#fale-conosco button {
+  background-color: #fa7f72;
+  color: #fff;
+}
+
+.event-image {
+  width: 100% !important;
+  height: 300px !important;
+  object-fit: cover; /* para manter a proporção da imagem */
+}
+
+#eventos {
+  text-align: justify;
+}
+
+@media (max-width: 767px) {
+  .carousel-item img {
+    height: 400px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  /* Ajuste para tablets */
+  .images-cardapio img {
+    height: 175px; /* Defina a altura desejada */
+    width: 100%; /* Defina a largura para ocupar todo o container */
+    object-fit: cover; /* Manter a proporção da imagem e ajustar ao tamanho do container */
+  }
+
+  .event-image {
+    width: 100% !important;
+    height: 300px !important;
+    object-fit: contain;
+    /* para manter a proporção da imagem */
+  }
+}
